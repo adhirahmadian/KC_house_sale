@@ -22,7 +22,7 @@ Saya melakukan beberapa analisis data harga rumah, serta hubungannya terhahap lu
 >![Harga Tahun](/harga_tahunan.png)
 
 Berdasarkan kurva bisa kita lihat bahwa sebagian besar harga rumah berada dibawah 1 juta dollar dengan luas dibawah 6000 meter persegi.
-Harga tersebut lebih variatif pada tahun 2014 dibanding tahun 2015.
+Harga lebih variatif pada tahun 2014 dibanding tahun 2015.
 
 # Model Building
 Dengan metode deep learning keras, saya menggunakan Neural Network dengan _input layer_ dan _hidden layer_ sebanyak 19 sel dengan metode aktivasi ReLU (Rectified Linear Unit), output layernya 1, serta optimasi 'adam' dan loss 'mse'. Metode ini digunakan karena pada kasus ini saya akan memprediksi besar eror terhadap nilai aktual.
