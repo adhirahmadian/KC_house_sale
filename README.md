@@ -36,4 +36,4 @@ Hasil _modelling_ ternyata bisa memprediksi dengan ketepatan >80% dan akan lebih
 
 >![model](/prediksi_harga.png)
 
-terakhir saya mencoba memprediksi harga rumah dengan data random, rumah yang dijual dengan harga 383.000 dollar saya berhasil memprediksi harga rumah tersebut 381.728 dollar
+Terakhir, saya mencoba memprediksi harga rumah dengan data random, rumah yang dijual dengan harga 383.000 dollar berhasil saya prediksi harga rumah tersebut adalah 381.728 dollar.
