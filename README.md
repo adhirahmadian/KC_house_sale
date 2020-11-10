@@ -19,17 +19,19 @@ Saya melakukan beberapa analisis data harga rumah, serta hubungannya terhahap lu
 
 >![Harga Rumah](/harga_rumah.png)
 >![Harga Rumah Luas](/luas_harga.png)
+
+Berdasarkan kurva 1 dan kurva 2 bisa kita lihat bahwa sebagian besar harga rumah berada dibawah 1 juta dollar dengan luas dibawah 6000 meter persegi.
+
 >![Harga Tahun](/harga_tahunan.png)
 
-Berdasarkan kurva bisa kita lihat bahwa sebagian besar harga rumah berada dibawah 1 juta dollar dengan luas dibawah 6000 meter persegi.
-Harga lebih variatif pada tahun 2014 dibanding tahun 2015.
+Dan untuk kurva 3 menunjukan perbandingan varian harga pada tahun 2014 dan tahun 2015.
 
 # Model Building
-Dengan metode deep learning keras, saya menggunakan Neural Network dengan _input layer_ dan _hidden layer_ sebanyak 19 sel dengan metode aktivasi ReLU (Rectified Linear Unit), output layernya 1, serta optimasi 'adam' dan loss 'mse'. Metode ini digunakan karena pada kasus ini saya akan memprediksi besar eror terhadap nilai aktual.
+Dengan metode _deep learning keras_, saya menggunakan _Neural Network_. _Input layer_ dan _hidden layer_ yang saya gunakan  adalah sebanyak 19 sel dengan metode aktivasi _ReLU_ (_Rectified Linear Unit_). Untuk _output layer_ 1 sel dengan optimasi 'adam' dan loss 'mse'. Metode ini digunakan karena pada kasus ini saya akan memprediksi besar eror terhadap nilai aktual.
 
 >![model](/model.png)
 
-model menunjukan kurva loss dan val_loss yang dimana kurva sangat fit dan mulai _overfitting_. Model tersebut akan saya coba gunakan.
+pada kurva model menunjukan singgungan kurva loss dan val_loss yang dimana kurva sangat fit dan mulai mengalami _overfitting_, oleh karena itu model tersebut saya akan coba gunakan.
 
 # Model Performance
 Hasil _modelling_ ternyata bisa memprediksi dengan ketepatan >80% dan akan lebih baik bila data yang digunakan adalah untuk rumah dengan harga dibawah 2 juta dollar.
