@@ -1,4 +1,4 @@
-# KC_house_sale
+# KingCounty_housesales_Project
 
 # Overview
 This dataset contains the selling price of homes for King County to cover Seattle, USA. This data includes homes sold between May 2014 and May 2015.
