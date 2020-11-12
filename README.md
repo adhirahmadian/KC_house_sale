@@ -9,7 +9,7 @@ In this project I will evaluate a regression model to predict house prices based
 
 Python Version: 3
 
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, keras.
+Packages: pandas, numpy, sklearn, matplotlib, seaborn, sklearn, keras.
 
 Dataset : https://www.kaggle.com/harlfoxem/housesalesprediction
 
